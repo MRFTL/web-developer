@@ -52,6 +52,5 @@ nav a{
 }
 
 .banner{
-    
-    display: flex;
+    padding: 30px 30px 30px 150px;
 }
