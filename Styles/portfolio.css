@@ -1,3 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+body{
+    /* full portfolio default font */
+    font-family: 'Open Sans', sans-serif;
+}
+.head{
+    /* for mary */
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.prime-color{
+    color: #FD6E0A;
+}
+
+.prime-button{
+    color: whitesmoke;
+    padding: 15px 35px;
+    border: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
 nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    
     display: flex;
 }
