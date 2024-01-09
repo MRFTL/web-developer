@@ -4,13 +4,10 @@ body{
     /* full portfolio default font */
     font-family: 'Open Sans', sans-serif;
 }
-.head{
-    /* for mary */
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
-}
 
+
+
+/* Primary */
 .prime-color{
     color: #FD6E0A;
 }
@@ -24,6 +21,16 @@ body{
     font-size: 20px;
     font-weight: 700;
     
+}
+
+
+/* for nav */
+
+.head{
+    /* for mary */
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
 }
 
 nav{
@@ -53,4 +60,5 @@ nav a{
 
 .banner{
     padding: 30px 30px 30px 150px;
+    display: flex;
 }
