@@ -59,9 +59,9 @@ nav a {
 /* Header stuff */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right, bottom left;
 }
 
 .banner {
@@ -106,6 +106,10 @@ nav a {
 main {
     max-width: 1140px;
     margin: 130px auto;
+}
+
+main section {
+    margin-top: 130px;
 }
 
 .about {
@@ -156,7 +160,9 @@ main {
 }
 
 .skillset-container {
+    margin-top: 50px;
     display: flex;
+    gap: 24px;
 }
 
 .skillset-title {
@@ -172,15 +178,49 @@ main {
 }
 
 .skillset {
-    height: 350px;
     padding: 30px;
     border-radius: 5px;
+    background: #fff;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    gap: 20px;
+}
+
+/* resume stuff */
+.resume-container {
+    display: flex;
+    gap: 30px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-item-info {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-item-description {
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.resume-items{
+    background:#FFF;
 }
 
 /* ids */
 
-#mmmmm{
+#mmmmm {
     margin: 30px 115px;
 }
