@@ -113,16 +113,17 @@ main {
     border-radius: 10px;
     background: #FFF8F3;
     padding: 130px 150px;
+    margin-bottom: 130px;
 }
 
-.about-title {
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
 
-.about-description {
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -132,7 +133,7 @@ main {
 
 .about-info-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .about-info {
@@ -140,14 +141,46 @@ main {
 }
 
 .info-title {
-    color:#757575;
+    color: #757575;
     text-align: center;
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 0px;
 }
 
 .info-description {
     color: #474747;
     font-size: 20px;
     font-weight: 700;
+    margin-top: 0px;
+}
+
+.skillset-container {
+    display: flex;
+}
+
+.skillset-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skillset-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.skillset {
+    height: 350px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    gap: 20px;
+}
+
+/* ids */
+
+#mmmmm{
+    margin: 30px 115px;
 }
