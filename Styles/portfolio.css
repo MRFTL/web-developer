@@ -103,10 +103,15 @@ nav a {
     margin-bottom: 30px;
 }
 
+main {
+    max-width: 1140px;
+    margin: 130px auto;
+}
+
 .about {
+    align-self: center;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 230px;
     padding: 130px 150px;
 }
 
@@ -123,4 +128,26 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color:#757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
 }
