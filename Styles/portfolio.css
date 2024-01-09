@@ -187,25 +187,28 @@ main section {
 /* resume stuff */
 .resume-container {
     display: flex;
-    gap: 30px;
+    gap: 50px;
 }
 
 .resume-column-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 
 .resume-item-title {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .resume-item-info {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .resume-item-description {
@@ -213,10 +216,16 @@ main section {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+    margin-bottom: 30px;
 }
 
 .resume-items{
     background:#FFF;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
 
 /* ids */
