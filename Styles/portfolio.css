@@ -328,8 +328,8 @@ textarea {
     }
 
     nav > ul{
-        flex-direction: column;
-        gap: 10px;
+        /* flex-direction: column;
+        gap: 10px; */
     }
 
     .prime-button{
